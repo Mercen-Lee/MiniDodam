@@ -9,8 +9,8 @@ import SwiftUI
 import CoreData
 
 extension Color {
-    static let primaryColor = Color(red: 43/255, green: 101/255, blue: 182/255)
-    static let secondaryColor = Color(red: 137/255, green: 177/255, blue: 217/255)
+    static let primaryColor = Color(red: 0, green: 80/255, blue: 182/255)
+    static let secondaryColor = Color(red: 100/255, green: 160/255, blue: 217/255)
 }
 
 struct ContentView: View {

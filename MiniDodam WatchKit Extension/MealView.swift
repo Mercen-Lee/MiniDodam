@@ -9,11 +9,29 @@ import SwiftUI
 
 struct MealView: View {
     var body: some View {
-        TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
-            Text("Tab Content 1").tabItem { Text("조식") }.tag(1)
-            Text("Tab Content 2").tabItem { Text("중식") }.tag(2)
-            Text("Tab Content 2").tabItem { Text("석식") }.tag(3)
+        TabView() {
+            BreakfastView()
+            LunchView()
+            DinnerView()
         }.navigationTitle("식단표")
+    }
+}
+
+struct BreakfastView: View {
+    var body: some View {
+        Text("조식")
+    }
+}
+
+struct LunchView: View {
+    var body: some View {
+        Text("중식")
+    }
+}
+
+struct DinnerView: View {
+    var body: some View {
+        Text("석식")
     }
 }
 
