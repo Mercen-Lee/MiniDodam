@@ -9,8 +9,46 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack{
+            Text("미니도담").font(.system(size: 25).bold())
+            HStack{
+                VStack{ NavigationLink(destination: MealView()) {
+                    Image(systemName: "fork.knife") }
+                        .background(Color.indigo.cornerRadius(100))
+                    Text("식단표")
+                }
+                VStack{ NavigationLink(destination: ClassView()) {
+                    Image(systemName: "book.fill") }
+                        .background(Color.blue.cornerRadius(100))
+                    Text("자습실") } }
+            HStack{
+                VStack{ NavigationLink(destination: MealView()) {
+                    Image(systemName: "heart.fill") }
+                        .background(Color.blue.cornerRadius(100))
+                    Text("상벌점") }
+                VStack{ NavigationLink(destination: ClassView()) {
+                    Image(systemName: "gearshape.fill") }
+                        .background(Color.indigo.cornerRadius(100))
+                    Text("설정") } }
+        }.padding([.top], 10)
+    }
+}
+
+struct MealView: View {
+    var body: some View {
+        Text("안뇽")
+    }
+}
+
+struct ClassView: View {
+    var body: some View {
+        Text("안뇽")
+    }
+}
+
+struct OtherView: View {
+    var body: some View {
+        Text("안뇽")
     }
 }
 
