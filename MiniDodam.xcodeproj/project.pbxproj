@@ -12,7 +12,7 @@
 		934E70232831ECB600D733F2 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70222831ECB600D733F2 /* ClassView.swift */; };
 		934E70252831ECE700D733F2 /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70242831ECE700D733F2 /* PointView.swift */; };
 		934E70272831ED1E00D733F2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70262831ED1E00D733F2 /* SettingsView.swift */; };
-		935C42E42831C42900A5E7DB /* MiniDodam WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 935C42E32831C42900A5E7DB /* MiniDodam WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		935C42E42831C42900A5E7DB /* 미니도담.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 935C42E32831C42900A5E7DB /* 미니도담.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		935C42E92831C42A00A5E7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935C42E82831C42A00A5E7DB /* Assets.xcassets */; };
 		935C42EF2831C42A00A5E7DB /* MiniDodam WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 935C42EE2831C42A00A5E7DB /* MiniDodam WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		935C42F42831C42A00A5E7DB /* MiniDodamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935C42F32831C42A00A5E7DB /* MiniDodamApp.swift */; };
@@ -76,7 +76,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				935C42E42831C42900A5E7DB /* MiniDodam WatchKit App.app in Embed Watch Content */,
+				935C42E42831C42900A5E7DB /* 미니도담.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,7 +90,7 @@
 		934E70242831ECE700D733F2 /* PointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
 		934E70262831ED1E00D733F2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		935C42DF2831C42900A5E7DB /* 미니도담.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "미니도담.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		935C42E32831C42900A5E7DB /* MiniDodam WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniDodam WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		935C42E32831C42900A5E7DB /* 미니도담.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "미니도담.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		935C42E82831C42A00A5E7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		935C42EE2831C42A00A5E7DB /* MiniDodam WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MiniDodam WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		935C42F32831C42A00A5E7DB /* MiniDodamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniDodamApp.swift; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				935C42DF2831C42900A5E7DB /* 미니도담.app */,
-				935C42E32831C42900A5E7DB /* MiniDodam WatchKit App.app */,
+				935C42E32831C42900A5E7DB /* 미니도담.app */,
 				935C42EE2831C42A00A5E7DB /* MiniDodam WatchKit Extension.appex */,
 				935C43082831C42B00A5E7DB /* MiniDodamTests.xctest */,
 				935C43122831C42B00A5E7DB /* MiniDodamUITests.xctest */,
@@ -245,7 +245,7 @@
 			);
 			name = "MiniDodam WatchKit App";
 			productName = "MiniDodam WatchKit App";
-			productReference = 935C42E32831C42900A5E7DB /* MiniDodam WatchKit App.app */;
+			productReference = 935C42E32831C42900A5E7DB /* 미니도담.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		935C42ED2831C42A00A5E7DB /* MiniDodam WatchKit Extension */ = {
@@ -577,8 +577,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MiniDodam WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "MiniDodam WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "미니도담 Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = MiniDodam_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -594,7 +594,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
 			};
 			name = Debug;
 		};
@@ -609,8 +609,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MiniDodam WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "MiniDodam WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "미니도담 Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = MiniDodam_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -626,7 +626,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
 			};
 			name = Release;
 		};
@@ -641,17 +641,16 @@
 				DEVELOPMENT_TEAM = 56V747V83R;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = MiniDodam_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "MiniDodam WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.mercen.MiniDodam.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "미니도담";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
 			};
 			name = Debug;
 		};
@@ -666,17 +665,16 @@
 				DEVELOPMENT_TEAM = 56V747V83R;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = MiniDodam_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "MiniDodam WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.mercen.MiniDodam.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "미니도담";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
 			};
 			name = Release;
 		};
