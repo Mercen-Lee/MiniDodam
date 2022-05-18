@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1786A1281431F6388F7B30EF /* Pods_MiniDodam_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF6C67E8420D628A9A05A08 /* Pods_MiniDodam_WatchKit_Extension.framework */; };
+		3F473EC86B00F4B187297BF9 /* Pods_MiniDodam_MiniDodamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7DD848F72C21AC85751B36 /* Pods_MiniDodam_MiniDodamUITests.framework */; };
+		46B08865D01D2F61A55281CC /* Pods_MiniDodamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EA64C334E56342784F8E63 /* Pods_MiniDodamTests.framework */; };
 		933EF58E2834A59200D1E3E1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933EF58D2834A59200D1E3E1 /* LoginView.swift */; };
 		934E701F2831E80B00D733F2 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 934E701D2831E80B00D733F2 /* Model.xcdatamodeld */; };
 		934E70212831EC8700D733F2 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70202831EC8700D733F2 /* MealView.swift */; };
@@ -26,6 +29,8 @@
 		935C430D2831C42B00A5E7DB /* MiniDodamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935C430C2831C42B00A5E7DB /* MiniDodamTests.swift */; };
 		935C43172831C42B00A5E7DB /* MiniDodamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935C43162831C42B00A5E7DB /* MiniDodamUITests.swift */; };
 		935C43192831C42B00A5E7DB /* MiniDodamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935C43182831C42B00A5E7DB /* MiniDodamUITestsLaunchTests.swift */; };
+		ABD06518271064F2291A5FD1 /* Pods_MiniDodam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3BB976C63966C1F760E831 /* Pods_MiniDodam.framework */; };
+		B04D60B31DE44CB898AF81DA /* Pods_MiniDodam_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0791D9F3383B1728AD5E96D /* Pods_MiniDodam_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +90,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		246F54CD5AA9A8406561FD59 /* Pods-MiniDodam-MiniDodamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam-MiniDodamUITests.release.xcconfig"; path = "Target Support Files/Pods-MiniDodam-MiniDodamUITests/Pods-MiniDodam-MiniDodamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B3DD24E1D9B69FD583DB4CB /* Pods-MiniDodam WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-MiniDodam WatchKit App/Pods-MiniDodam WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		2CF6C67E8420D628A9A05A08 /* Pods_MiniDodam_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniDodam_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431D2BB908024C71CD638E33 /* Pods-MiniDodam WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-MiniDodam WatchKit App/Pods-MiniDodam WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		55EA64C334E56342784F8E63 /* Pods_MiniDodamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniDodamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		715602B1F3EF39AF8BF2BEE1 /* Pods-MiniDodamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodamTests.release.xcconfig"; path = "Target Support Files/Pods-MiniDodamTests/Pods-MiniDodamTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AC483BB495DF799AEC63199 /* Pods-MiniDodam WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-MiniDodam WatchKit Extension/Pods-MiniDodam WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		933EF58D2834A59200D1E3E1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9344AD406E209926E47AEAEC /* Pods-MiniDodam WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-MiniDodam WatchKit Extension/Pods-MiniDodam WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		934E701E2831E80B00D733F2 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		934E70202831EC8700D733F2 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 		934E70222831ECB600D733F2 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
@@ -109,6 +122,13 @@
 		935C43122831C42B00A5E7DB /* MiniDodamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniDodamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935C43162831C42B00A5E7DB /* MiniDodamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniDodamUITests.swift; sourceTree = "<group>"; };
 		935C43182831C42B00A5E7DB /* MiniDodamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniDodamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D3BB976C63966C1F760E831 /* Pods_MiniDodam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniDodam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0791D9F3383B1728AD5E96D /* Pods_MiniDodam_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniDodam_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA4AD917EE6C66429439DA7 /* Pods-MiniDodam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam.debug.xcconfig"; path = "Target Support Files/Pods-MiniDodam/Pods-MiniDodam.debug.xcconfig"; sourceTree = "<group>"; };
+		BE177A70A1540CBF4745D858 /* Pods-MiniDodam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam.release.xcconfig"; path = "Target Support Files/Pods-MiniDodam/Pods-MiniDodam.release.xcconfig"; sourceTree = "<group>"; };
+		C629AEC4894D06909512A16D /* Pods-MiniDodamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodamTests.debug.xcconfig"; path = "Target Support Files/Pods-MiniDodamTests/Pods-MiniDodamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF7DD848F72C21AC85751B36 /* Pods_MiniDodam_MiniDodamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniDodam_MiniDodamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57278E100AA262AAE5E9519 /* Pods-MiniDodam-MiniDodamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam-MiniDodamUITests.debug.xcconfig"; path = "Target Support Files/Pods-MiniDodam-MiniDodamUITests/Pods-MiniDodam-MiniDodamUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1786A1281431F6388F7B30EF /* Pods_MiniDodam_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B08865D01D2F61A55281CC /* Pods_MiniDodamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,12 +152,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F473EC86B00F4B187297BF9 /* Pods_MiniDodam_MiniDodamUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C85B2ED1C010642AC0CEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD06518271064F2291A5FD1 /* Pods_MiniDodam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3221146F4A6EC37DF5A014E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04D60B31DE44CB898AF81DA /* Pods_MiniDodam_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C57AACEFCBAB3A51DF10312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D3BB976C63966C1F760E831 /* Pods_MiniDodam.framework */,
+				A0791D9F3383B1728AD5E96D /* Pods_MiniDodam_WatchKit_App.framework */,
+				2CF6C67E8420D628A9A05A08 /* Pods_MiniDodam_WatchKit_Extension.framework */,
+				DF7DD848F72C21AC85751B36 /* Pods_MiniDodam_MiniDodamUITests.framework */,
+				55EA64C334E56342784F8E63 /* Pods_MiniDodamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		935C42D82831C42900A5E7DB = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +195,8 @@
 				935C430B2831C42B00A5E7DB /* MiniDodamTests */,
 				935C43152831C42B00A5E7DB /* MiniDodamUITests */,
 				935C42E02831C42900A5E7DB /* Products */,
+				963118AF92F0E73AE8668667 /* Pods */,
+				2C57AACEFCBAB3A51DF10312 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,6 +267,24 @@
 			path = MiniDodamUITests;
 			sourceTree = "<group>";
 		};
+		963118AF92F0E73AE8668667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBA4AD917EE6C66429439DA7 /* Pods-MiniDodam.debug.xcconfig */,
+				BE177A70A1540CBF4745D858 /* Pods-MiniDodam.release.xcconfig */,
+				2B3DD24E1D9B69FD583DB4CB /* Pods-MiniDodam WatchKit App.debug.xcconfig */,
+				431D2BB908024C71CD638E33 /* Pods-MiniDodam WatchKit App.release.xcconfig */,
+				8AC483BB495DF799AEC63199 /* Pods-MiniDodam WatchKit Extension.debug.xcconfig */,
+				9344AD406E209926E47AEAEC /* Pods-MiniDodam WatchKit Extension.release.xcconfig */,
+				E57278E100AA262AAE5E9519 /* Pods-MiniDodam-MiniDodamUITests.debug.xcconfig */,
+				246F54CD5AA9A8406561FD59 /* Pods-MiniDodam-MiniDodamUITests.release.xcconfig */,
+				C629AEC4894D06909512A16D /* Pods-MiniDodamTests.debug.xcconfig */,
+				715602B1F3EF39AF8BF2BEE1 /* Pods-MiniDodamTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,8 +292,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 935C43242831C42B00A5E7DB /* Build configuration list for PBXNativeTarget "MiniDodam" */;
 			buildPhases = (
+				8EE8BF8EF99C8728BD9D9E2C /* [CP] Check Pods Manifest.lock */,
 				935C42DD2831C42900A5E7DB /* Resources */,
 				935C43232831C42B00A5E7DB /* Embed Watch Content */,
+				C2C85B2ED1C010642AC0CEFA /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,8 +311,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 935C43202831C42B00A5E7DB /* Build configuration list for PBXNativeTarget "MiniDodam WatchKit App" */;
 			buildPhases = (
+				07A2F550BE86E3EABD44FBA7 /* [CP] Check Pods Manifest.lock */,
 				935C42E12831C42900A5E7DB /* Resources */,
 				935C431F2831C42B00A5E7DB /* Embed App Extensions */,
+				C3221146F4A6EC37DF5A014E /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,9 +330,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 935C431C2831C42B00A5E7DB /* Build configuration list for PBXNativeTarget "MiniDodam WatchKit Extension" */;
 			buildPhases = (
+				32F5D32005B2370C4B8BAAAB /* [CP] Check Pods Manifest.lock */,
 				935C42EA2831C42A00A5E7DB /* Sources */,
 				935C42EB2831C42A00A5E7DB /* Frameworks */,
 				935C42EC2831C42A00A5E7DB /* Resources */,
+				F5AE4AE011DF91EA0F436F8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +349,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 935C43272831C42B00A5E7DB /* Build configuration list for PBXNativeTarget "MiniDodamTests" */;
 			buildPhases = (
+				D7C17A103794E94A127729F3 /* [CP] Check Pods Manifest.lock */,
 				935C43042831C42B00A5E7DB /* Sources */,
 				935C43052831C42B00A5E7DB /* Frameworks */,
 				935C43062831C42B00A5E7DB /* Resources */,
@@ -290,6 +368,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 935C432A2831C42B00A5E7DB /* Build configuration list for PBXNativeTarget "MiniDodamUITests" */;
 			buildPhases = (
+				132488C6094F4557827AEBFB /* [CP] Check Pods Manifest.lock */,
 				935C430E2831C42B00A5E7DB /* Sources */,
 				935C430F2831C42B00A5E7DB /* Frameworks */,
 				935C43102831C42B00A5E7DB /* Resources */,
@@ -395,6 +474,136 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07A2F550BE86E3EABD44FBA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniDodam WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		132488C6094F4557827AEBFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniDodam-MiniDodamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32F5D32005B2370C4B8BAAAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniDodam WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE8BF8EF99C8728BD9D9E2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniDodam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C17A103794E94A127729F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniDodamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5AE4AE011DF91EA0F436F8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniDodam WatchKit Extension/Pods-MiniDodam WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniDodam WatchKit Extension/Pods-MiniDodam WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniDodam WatchKit Extension/Pods-MiniDodam WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		935C42EA2831C42A00A5E7DB /* Sources */ = {
@@ -572,6 +781,7 @@
 		};
 		935C431D2831C42B00A5E7DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC483BB495DF799AEC63199 /* Pods-MiniDodam WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,6 +814,7 @@
 		};
 		935C431E2831C42B00A5E7DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9344AD406E209926E47AEAEC /* Pods-MiniDodam WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -636,6 +847,7 @@
 		};
 		935C43212831C42B00A5E7DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3DD24E1D9B69FD583DB4CB /* Pods-MiniDodam WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -660,6 +872,7 @@
 		};
 		935C43222831C42B00A5E7DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431D2BB908024C71CD638E33 /* Pods-MiniDodam WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -684,6 +897,7 @@
 		};
 		935C43252831C42B00A5E7DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA4AD917EE6C66429439DA7 /* Pods-MiniDodam.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -697,6 +911,7 @@
 		};
 		935C43262831C42B00A5E7DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE177A70A1540CBF4745D858 /* Pods-MiniDodam.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -710,6 +925,7 @@
 		};
 		935C43282831C42B00A5E7DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C629AEC4894D06909512A16D /* Pods-MiniDodamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -731,6 +947,7 @@
 		};
 		935C43292831C42B00A5E7DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715602B1F3EF39AF8BF2BEE1 /* Pods-MiniDodamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -752,6 +969,7 @@
 		};
 		935C432B2831C42B00A5E7DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57278E100AA262AAE5E9519 /* Pods-MiniDodam-MiniDodamUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -771,6 +989,7 @@
 		};
 		935C432C2831C42B00A5E7DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246F54CD5AA9A8406561FD59 /* Pods-MiniDodam-MiniDodamUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
