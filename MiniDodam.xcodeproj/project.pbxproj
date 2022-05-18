@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933EF58E2834A59200D1E3E1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933EF58D2834A59200D1E3E1 /* LoginView.swift */; };
 		934E701F2831E80B00D733F2 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 934E701D2831E80B00D733F2 /* Model.xcdatamodeld */; };
 		934E70212831EC8700D733F2 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70202831EC8700D733F2 /* MealView.swift */; };
 		934E70232831ECB600D733F2 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70222831ECB600D733F2 /* ClassView.swift */; };
@@ -84,6 +85,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		933EF58D2834A59200D1E3E1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		934E701E2831E80B00D733F2 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		934E70202831EC8700D733F2 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 		934E70222831ECB600D733F2 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				935C42F32831C42A00A5E7DB /* MiniDodamApp.swift */,
 				935C42F52831C42A00A5E7DB /* ContentView.swift */,
 				934E70262831ED1E00D733F2 /* SettingsView.swift */,
+				933EF58D2834A59200D1E3E1 /* LoginView.swift */,
 				934E70242831ECE700D733F2 /* PointView.swift */,
 				934E70222831ECB600D733F2 /* ClassView.swift */,
 				934E70202831EC8700D733F2 /* MealView.swift */,
@@ -406,6 +409,7 @@
 				934E70272831ED1E00D733F2 /* SettingsView.swift in Sources */,
 				934E70212831EC8700D733F2 /* MealView.swift in Sources */,
 				935C42F42831C42A00A5E7DB /* MiniDodamApp.swift in Sources */,
+				933EF58E2834A59200D1E3E1 /* LoginView.swift in Sources */,
 				935C42FA2831C42A00A5E7DB /* NotificationView.swift in Sources */,
 				934E701F2831E80B00D733F2 /* Model.xcdatamodeld in Sources */,
 			);

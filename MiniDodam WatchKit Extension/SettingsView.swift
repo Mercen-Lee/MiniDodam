@@ -10,8 +10,7 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         List {
-            TextField("아이디 입력", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-            SecureField("비밀번호 입력", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("Apple")/*@END_MENU_TOKEN@*/)
+            NavigationLink("로그인", destination: LoginView())
             NavigationLink("기본위치 변경", destination: LocationView())
             NavigationLink("앱 정보", destination: InformationView())
         }.navigationTitle("설정")
@@ -36,6 +35,6 @@ struct InformationView: View {
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         //SettingsView()
-        InformationView()
+        SettingsView()
     }
 }
