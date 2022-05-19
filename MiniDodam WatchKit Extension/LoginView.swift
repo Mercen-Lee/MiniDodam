@@ -9,11 +9,6 @@ import SwiftUI
 import CryptoKit
 import Alamofire
 
-struct Post: Codable {
-  let id: String
-  let pw: String
-}
-
 struct LoginView: View {
     @State var id: String = ""
     @State var pw: String = ""
@@ -22,32 +17,27 @@ struct LoginView: View {
         TextField("아이디 입력", text: $id)
         SecureField("비밀번호 입력", text: $pw)
         Button("로그인") {
-            let original = pw
-            let data = original.data(using: .utf8)
-            let sha512 = SHA512.hash(data: data!)
-            let shaData = sha512.compactMap{String(format: "%02x", $0)}.joined()
-            guard let uploadData = try? JSONEncoder().encode(Post(id: id, pw: shaData))
-            else {return}
-            
-            let url = URL(string: "http://auth.dodam.b1nd.com/auth/login")
-            
-            var request = URLRequest(url: url!)
+            let pw = SHA512.hash(data: pw.data(using: .utf8)!)
+                .compactMap{String(format: "%02x", $0)}.joined()
+            let url = "http://auth.dodam.b1nd.com/auth/login"
+            let params = ["id": id, "pw": pw] as Dictionary
+            var request = URLRequest(url: URL(string: url)!)
             request.httpMethod = "POST"
-
-            let task = URLSession.shared.uploadTask(with: request, from: uploadData) { (data, response, error) in
-
-                if let e = error {
-                    NSLog("An error has occured: \(e.localizedDescription)")
-                    return
+            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+            request.timeoutInterval = 10
+            do { try request.httpBody = JSONSerialization.data(withJSONObject: params, options: []) } catch { print("Error") }
+            AF.request(request)
+                .responseData { response in
+                    switch response.result {
+                    case .success(let data):
+                        do {
+                            let asJSON = try JSONSerialization.jsonObject(with: data)
+                            print(asJSON)
+                        } catch { print("Error") }
+                    case .failure(_): break
+                    }
                 }
-                DispatchQueue.main.async() {
-                    let outputStr = String(data: data!, encoding: String.Encoding.utf8)
-                    print("result: \(outputStr!)")
-                }
-            }
-            task.resume()
-
-        }.background(Color.primaryColor.cornerRadius(100))
+        }.background(Color.primaryColor.cornerRadius(21))
         }
         .navigationTitle("로그인")
         .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))

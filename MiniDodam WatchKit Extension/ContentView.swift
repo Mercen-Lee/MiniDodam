@@ -20,20 +20,20 @@ struct ContentView: View {
             HStack{
                 VStack{ NavigationLink(destination: MealView()) {
                     Image(systemName: "fork.knife") }
-                .background(Color.primaryColor.cornerRadius(100))
+                .background(Color.primaryColor.cornerRadius(21))
                     Text("식단표") }
                 VStack{ NavigationLink(destination: ClassView()) {
                     Image(systemName: "book.fill") }
-                .background(Color.secondaryColor.cornerRadius(100))
+                .background(Color.secondaryColor.cornerRadius(21))
                     Text("자습실") } }
             HStack{
                 VStack{ NavigationLink(destination: PointView()) {
                     Image(systemName: "heart.fill") }
-                .background(Color.secondaryColor.cornerRadius(100))
+                .background(Color.secondaryColor.cornerRadius(21))
                     Text("상벌점") }
                 VStack{ NavigationLink(destination: SettingsView()) {
                     Image(systemName: "gearshape.fill") }
-                .background(Color.primaryColor.cornerRadius(100))
+                .background(Color.primaryColor.cornerRadius(21))
                     Text("설정") } }
         }.padding([.top], 10)
     }
