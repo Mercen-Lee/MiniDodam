@@ -10,7 +10,6 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         List {
-            NavigationLink("로그인", destination: LoginView())
             NavigationLink("기본위치 변경", destination: LocationView())
             NavigationLink("앱 정보", destination: InformationView())
         }.navigationTitle("설정")

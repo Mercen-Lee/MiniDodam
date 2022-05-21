@@ -11,8 +11,6 @@
 		3F473EC86B00F4B187297BF9 /* Pods_MiniDodam_MiniDodamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7DD848F72C21AC85751B36 /* Pods_MiniDodam_MiniDodamUITests.framework */; };
 		46B08865D01D2F61A55281CC /* Pods_MiniDodamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EA64C334E56342784F8E63 /* Pods_MiniDodamTests.framework */; };
 		93299E5828366CAB00BEF7D1 /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93299E5728366CAB00BEF7D1 /* RequestAPI.swift */; };
-		933EF58E2834A59200D1E3E1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933EF58D2834A59200D1E3E1 /* LoginView.swift */; };
-		934E701F2831E80B00D733F2 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 934E701D2831E80B00D733F2 /* Model.xcdatamodeld */; };
 		934E70212831EC8700D733F2 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70202831EC8700D733F2 /* MealView.swift */; };
 		934E70232831ECB600D733F2 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70222831ECB600D733F2 /* ClassView.swift */; };
 		934E70252831ECE700D733F2 /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70242831ECE700D733F2 /* PointView.swift */; };
@@ -30,6 +28,7 @@
 		935C430D2831C42B00A5E7DB /* MiniDodamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935C430C2831C42B00A5E7DB /* MiniDodamTests.swift */; };
 		935C43172831C42B00A5E7DB /* MiniDodamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935C43162831C42B00A5E7DB /* MiniDodamUITests.swift */; };
 		935C43192831C42B00A5E7DB /* MiniDodamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935C43182831C42B00A5E7DB /* MiniDodamUITestsLaunchTests.swift */; };
+		93D406602839499300F56386 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4065F2839499300F56386 /* HomeView.swift */; };
 		ABD06518271064F2291A5FD1 /* Pods_MiniDodam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3BB976C63966C1F760E831 /* Pods_MiniDodam.framework */; };
 		B04D60B31DE44CB898AF81DA /* Pods_MiniDodam_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0791D9F3383B1728AD5E96D /* Pods_MiniDodam_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
@@ -99,9 +98,7 @@
 		715602B1F3EF39AF8BF2BEE1 /* Pods-MiniDodamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodamTests.release.xcconfig"; path = "Target Support Files/Pods-MiniDodamTests/Pods-MiniDodamTests.release.xcconfig"; sourceTree = "<group>"; };
 		8AC483BB495DF799AEC63199 /* Pods-MiniDodam WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-MiniDodam WatchKit Extension/Pods-MiniDodam WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		93299E5728366CAB00BEF7D1 /* RequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
-		933EF58D2834A59200D1E3E1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9344AD406E209926E47AEAEC /* Pods-MiniDodam WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-MiniDodam WatchKit Extension/Pods-MiniDodam WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		934E701E2831E80B00D733F2 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		934E70202831EC8700D733F2 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 		934E70222831ECB600D733F2 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
 		934E70242831ECE700D733F2 /* PointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
@@ -124,6 +121,7 @@
 		935C43122831C42B00A5E7DB /* MiniDodamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniDodamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935C43162831C42B00A5E7DB /* MiniDodamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniDodamUITests.swift; sourceTree = "<group>"; };
 		935C43182831C42B00A5E7DB /* MiniDodamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniDodamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93D4065F2839499300F56386 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9D3BB976C63966C1F760E831 /* Pods_MiniDodam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniDodam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0791D9F3383B1728AD5E96D /* Pods_MiniDodam_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniDodam_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA4AD917EE6C66429439DA7 /* Pods-MiniDodam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam.debug.xcconfig"; path = "Target Support Files/Pods-MiniDodam/Pods-MiniDodam.debug.xcconfig"; sourceTree = "<group>"; };
@@ -227,13 +225,12 @@
 			children = (
 				935C42F32831C42A00A5E7DB /* MiniDodamApp.swift */,
 				935C42F52831C42A00A5E7DB /* ContentView.swift */,
+				93D4065F2839499300F56386 /* HomeView.swift */,
 				934E70262831ED1E00D733F2 /* SettingsView.swift */,
-				933EF58D2834A59200D1E3E1 /* LoginView.swift */,
 				934E70242831ECE700D733F2 /* PointView.swift */,
 				93299E5728366CAB00BEF7D1 /* RequestAPI.swift */,
 				934E70222831ECB600D733F2 /* ClassView.swift */,
 				934E70202831EC8700D733F2 /* MealView.swift */,
-				934E701D2831E80B00D733F2 /* Model.xcdatamodeld */,
 				935C42F72831C42A00A5E7DB /* NotificationController.swift */,
 				935C42F92831C42A00A5E7DB /* NotificationView.swift */,
 				935C42FB2831C42A00A5E7DB /* ComplicationController.swift */,
@@ -620,10 +617,9 @@
 				934E70272831ED1E00D733F2 /* SettingsView.swift in Sources */,
 				934E70212831EC8700D733F2 /* MealView.swift in Sources */,
 				935C42F42831C42A00A5E7DB /* MiniDodamApp.swift in Sources */,
-				933EF58E2834A59200D1E3E1 /* LoginView.swift in Sources */,
+				93D406602839499300F56386 /* HomeView.swift in Sources */,
 				935C42FA2831C42A00A5E7DB /* NotificationView.swift in Sources */,
 				93299E5828366CAB00BEF7D1 /* RequestAPI.swift in Sources */,
-				934E701F2831E80B00D733F2 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1068,19 +1064,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		934E701D2831E80B00D733F2 /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				934E701E2831E80B00D733F2 /* Model.xcdatamodel */,
-			);
-			currentVersion = 934E701E2831E80B00D733F2 /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 935C42D92831C42900A5E7DB /* Project object */;
 }
