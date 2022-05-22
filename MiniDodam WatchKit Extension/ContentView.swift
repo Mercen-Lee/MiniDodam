@@ -9,7 +9,6 @@ import SwiftUI
 import CryptoKit
 import Alamofire
 import SwiftyJSON
-import RealmSwift
 
 extension Color {
     static let primaryColor = Color(red: 0, green: 80/255, blue: 182/255)
