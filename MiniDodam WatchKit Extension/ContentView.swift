@@ -25,8 +25,6 @@ struct ContentView: View {
         
         VStack{
             
-            Text("미니도담").font(.system(size: 25).bold())
-            
             TextField("아이디 입력", text: $id)
             SecureField("비밀번호 입력", text: $pw)
             
@@ -47,22 +45,19 @@ struct ContentView: View {
                 AF.request(request).validate().responseData { response in
                     let token = JSON(response.data!)["data"]["token"].string
                     UserDefaults.standard.set(token, forKey: "token")
+                    if JSON(response.data!)["status"].int == 200 { HomeView(token: token) }
                 }
                 
             }.background(Color.primaryColor.cornerRadius(21))
         }
         .navigationTitle("로그인")
-        
+        .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
         .onAppear {
             
             if let token = UserDefaults.standard.string(forKey: "token") {
                 
                 AF.request("http://dodam.b1nd.com/api/v2//members/my", method: .get, encoding: URLEncoding.default, headers: ["x-access-token": token]).responseData { response in
-                    
-                    if JSON(response.data!)["response"] == 200 {
-                        
-                        let name = JSON(response.data!)["data"]["memberData"]["name"].string
-                        HomeView(token: token, name: name) } }
+                    if JSON(response.data!)["status"].int == 200 { HomeView(token: token) } }
             }
         }
     }
