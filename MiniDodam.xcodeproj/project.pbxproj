@@ -10,10 +10,10 @@
 		1786A1281431F6388F7B30EF /* Pods_MiniDodam_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF6C67E8420D628A9A05A08 /* Pods_MiniDodam_WatchKit_Extension.framework */; };
 		3F473EC86B00F4B187297BF9 /* Pods_MiniDodam_MiniDodamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7DD848F72C21AC85751B36 /* Pods_MiniDodam_MiniDodamUITests.framework */; };
 		46B08865D01D2F61A55281CC /* Pods_MiniDodamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EA64C334E56342784F8E63 /* Pods_MiniDodamTests.framework */; };
+		931DDA61283A8336004E7104 /* EscapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931DDA60283A8336004E7104 /* EscapeView.swift */; };
 		93299E5828366CAB00BEF7D1 /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93299E5728366CAB00BEF7D1 /* RequestAPI.swift */; };
 		934E70212831EC8700D733F2 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70202831EC8700D733F2 /* MealView.swift */; };
 		934E70232831ECB600D733F2 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70222831ECB600D733F2 /* ClassView.swift */; };
-		934E70252831ECE700D733F2 /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70242831ECE700D733F2 /* PointView.swift */; };
 		934E70272831ED1E00D733F2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E70262831ED1E00D733F2 /* SettingsView.swift */; };
 		935C42E42831C42900A5E7DB /* 미니도담.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 935C42E32831C42900A5E7DB /* 미니도담.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		935C42E92831C42A00A5E7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935C42E82831C42A00A5E7DB /* Assets.xcassets */; };
@@ -97,11 +97,11 @@
 		55EA64C334E56342784F8E63 /* Pods_MiniDodamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniDodamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		715602B1F3EF39AF8BF2BEE1 /* Pods-MiniDodamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodamTests.release.xcconfig"; path = "Target Support Files/Pods-MiniDodamTests/Pods-MiniDodamTests.release.xcconfig"; sourceTree = "<group>"; };
 		8AC483BB495DF799AEC63199 /* Pods-MiniDodam WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-MiniDodam WatchKit Extension/Pods-MiniDodam WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		931DDA60283A8336004E7104 /* EscapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeView.swift; sourceTree = "<group>"; };
 		93299E5728366CAB00BEF7D1 /* RequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
 		9344AD406E209926E47AEAEC /* Pods-MiniDodam WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniDodam WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-MiniDodam WatchKit Extension/Pods-MiniDodam WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		934E70202831EC8700D733F2 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 		934E70222831ECB600D733F2 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
-		934E70242831ECE700D733F2 /* PointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
 		934E70262831ED1E00D733F2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		935C42DF2831C42900A5E7DB /* 미니도담.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "미니도담.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		935C42E32831C42900A5E7DB /* 미니도담.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "미니도담.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,9 +227,9 @@
 				935C42F52831C42A00A5E7DB /* ContentView.swift */,
 				93D4065F2839499300F56386 /* HomeView.swift */,
 				934E70262831ED1E00D733F2 /* SettingsView.swift */,
-				934E70242831ECE700D733F2 /* PointView.swift */,
 				93299E5728366CAB00BEF7D1 /* RequestAPI.swift */,
 				934E70222831ECB600D733F2 /* ClassView.swift */,
+				931DDA60283A8336004E7104 /* EscapeView.swift */,
 				934E70202831EC8700D733F2 /* MealView.swift */,
 				935C42F72831C42A00A5E7DB /* NotificationController.swift */,
 				935C42F92831C42A00A5E7DB /* NotificationView.swift */,
@@ -612,12 +612,12 @@
 				935C42F82831C42A00A5E7DB /* NotificationController.swift in Sources */,
 				935C42F62831C42A00A5E7DB /* ContentView.swift in Sources */,
 				935C42FC2831C42A00A5E7DB /* ComplicationController.swift in Sources */,
-				934E70252831ECE700D733F2 /* PointView.swift in Sources */,
 				934E70232831ECB600D733F2 /* ClassView.swift in Sources */,
 				934E70272831ED1E00D733F2 /* SettingsView.swift in Sources */,
 				934E70212831EC8700D733F2 /* MealView.swift in Sources */,
 				935C42F42831C42A00A5E7DB /* MiniDodamApp.swift in Sources */,
 				93D406602839499300F56386 /* HomeView.swift in Sources */,
+				931DDA61283A8336004E7104 /* EscapeView.swift in Sources */,
 				935C42FA2831C42A00A5E7DB /* NotificationView.swift in Sources */,
 				93299E5828366CAB00BEF7D1 /* RequestAPI.swift in Sources */,
 			);

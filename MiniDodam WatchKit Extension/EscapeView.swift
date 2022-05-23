@@ -1,20 +1,20 @@
 //
-//  PointView.swift
+//  EscapeView.swift
 //  MiniDodam WatchKit Extension
 //
-//  Created by Mercen on 2022/05/16.
+//  Created by Mercen on 2022/05/22.
 //
 
 import SwiftUI
 
-struct PointView: View {
+struct EscapeView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct PointView_Previews: PreviewProvider {
+struct EscapeView_Previews: PreviewProvider {
     static var previews: some View {
-        PointView()
+        EscapeView()
     }
 }

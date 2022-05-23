@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct HomeView: View {
-    var token: String?
     var body: some View {
         VStack{
             Text("미니도담").font(.system(size: 25).bold())
@@ -22,14 +21,14 @@ struct HomeView: View {
                 .background(Color.secondaryColor.cornerRadius(21))
                     Text("자습실") } }
             HStack{
-                VStack{ NavigationLink(destination: PointView()) {
+                VStack{ NavigationLink(destination: EscapeView()) {
                     Image(systemName: "heart.fill") }
                 .background(Color.secondaryColor.cornerRadius(21))
-                    Text("상벌점") }
+                    Text("외출∙외박") }
                 VStack{ NavigationLink(destination: SettingsView()) {
-                    Image(systemName: "gearshape.fill") }
+                    Image(systemName: "ellipsis") }
                 .background(Color.primaryColor.cornerRadius(21))
-                    Text("설정") } }
+                    Text("더보기") } }
         }.padding([.top], 10)
     }
 }

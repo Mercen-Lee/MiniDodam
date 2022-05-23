@@ -10,12 +10,22 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         List {
+            Button("로그아웃") {
+                UserDefaults.standard.removeObject(forKey: "token")
+                exit(0) }
+            NavigationLink("상벌점 확인", destination: PointView())
             NavigationLink("기본위치 변경", destination: LocationView())
             NavigationLink("앱 정보", destination: InformationView())
         }.navigationTitle("설정")
     }
 }
-
+struct PointView: View {
+    var body: some View {
+        VStack{
+            
+        }
+    }
+}
 struct LocationView: View {
     var body: some View {
         VStack{
@@ -33,7 +43,6 @@ struct InformationView: View {
 }
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        //SettingsView()
         SettingsView()
     }
 }
