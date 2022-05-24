@@ -39,22 +39,21 @@ struct MealView: View {
 struct BreakfastView: View {
     var breakfast: String
     var body: some View {
-        Text(breakfast).navigationTitle("조식").onAppear {
-        }
+        Text(breakfast).navigationTitle("조식").font(.system(size: 22).bold())
     }
 }
 
 struct LunchView: View {
     var lunch: String
     var body: some View {
-        Text(lunch).navigationTitle("중식")
+        Text(lunch).navigationTitle("중식").font(.system(size: 22).bold())
     }
 }
 
 struct DinnerView: View {
     var dinner: String
     var body: some View {
-        Text(dinner).navigationTitle("석식")
+        Text(dinner).navigationTitle("석식").font(.system(size: 22).bold())
     }
 }
 

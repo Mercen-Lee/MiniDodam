@@ -52,6 +52,7 @@ struct ClassView: View {
                     let date = format.string(from: Date())
                     let week = Calendar.current.component(.weekday, from: Date())
                     AF.request("http://dodam.b1nd.com/api/v2//location/my?date=" + date, method: .get, encoding: URLEncoding.default, headers: ["x-access-token": token]).responseData { response in
+                        print(JSON(response.data!))
                         if(JSON(response.data!)["data"]["locations"][0]["placeIdx"].int == nil) {
                             AF.request("http://dodam.b1nd.com/api/v2//location/default/\(week)", method: .get, encoding: URLEncoding.default, headers: ["x-access-token": token]).responseData { response in
                                 for i in 0..<4 {
