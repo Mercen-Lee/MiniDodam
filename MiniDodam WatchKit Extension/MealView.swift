@@ -10,12 +10,12 @@ import Alamofire
 import SwiftyJSON
 
 func reg(str: String) -> String {
-    return str.replacingOccurrences(of: "<br/>", with: "\n").components(separatedBy: CharacterSet.decimalDigits).joined().replacingOccurrences(of: "(", with: "").replacingOccurrences(of: ")", with: "").replacingOccurrences(of: ".", with: "").replacingOccurrences(of: "*", with: "").replacingOccurrences(of: " ", with: "") }
+    return str.replacingOccurrences(of: "<br/>", with: "\n").components(separatedBy: CharacterSet.decimalDigits).joined().replacingOccurrences(of: "(", with: "").replacingOccurrences(of: ")", with: "").replacingOccurrences(of: ".", with: "").replacingOccurrences(of: "*", with: "").replacingOccurrences(of: " ", with: "") } //정규식 어케쓰는거고 하
 
 struct MealView: View {
-    @State public var breakfast = ""
-    @State public var lunch = ""
-    @State public var dinner = ""
+    @State public var breakfast = "조식이 없습니다"
+    @State public var lunch = "중식이 없습니다"
+    @State public var dinner = "석식이 없습니다"
     var body: some View {
         TabView() {
             BreakfastView(breakfast: breakfast)
@@ -40,7 +40,6 @@ struct BreakfastView: View {
     var breakfast: String
     var body: some View {
         Text(breakfast).navigationTitle("조식").onAppear {
-            
         }
     }
 }
