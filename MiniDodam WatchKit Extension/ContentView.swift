@@ -60,7 +60,6 @@ struct ContentView: View {
         .navigationTitle("로그인")
         .padding(EdgeInsets(top: 0, leading: 0, bottom: 30, trailing: 0))
         .onAppear {
-            
             if let token = UserDefaults.standard.string(forKey: "token") {
                 do { try AF.request("http://dodam.b1nd.com/api/v2//members/my", method: .get, encoding: URLEncoding.default, headers: ["x-access-token": token]).responseData { response in
                     if JSON(response.data!)["status"].int == 200 { homeScreen.toggle() } else { UserDefaults.standard.removeObject(forKey: "token")}} } catch { }
